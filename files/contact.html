@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover the ultimate fitness experience at N.E.W Champion's Gym in Náfplio. 
+    Unleash your potential with state-of-the-art equipment, expert trainers, and a vibrant community. 
+    Elevate your fitness journey to new heights at the premier gym in Náfplio, where champions are made. 
+    Join us for a transformative fitness experience that goes beyond the ordinary, empowering you to conquer your goals and redefine your limits. ">
+    <meta name="keywords" content="gym, nafplio, fitness, health, bodybuilding">
+    <meta name="author" content="Filippos Obrijanu">
+    <meta property="og:image" content="https://scontent.fath4-2.fna.fbcdn.net/v/t39.30808-6/305087144_552082383382852_137471983504806580_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=fp2HxKdI1N8AX_3F8fM&_nc_ht=scontent.fath4-2.fna&oh=00_AfC5yZT4uiYcoAVBJnEP7Q8Wb04sGqsRs0gicFDV0EDT9Q&oe=65AB7E05" />
+    
+    <link rel="icon" type="image/x-icon" href="../assets/icons/logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | New Champion's Gym </title>
+
+    <link rel="stylesheet" href="../assets/styles/nav.css">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/footer.css">
+    <link rel="stylesheet" href="../assets/styles/arrow.css">
+    <link rel="stylesheet" href="../assets/styles/contact.css">
+    <link rel="stylesheet" href="../assets/styles/loadinganimation.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <div class="loader"></div>
+
+    <span id="head"></span>
+    <a href="#head">
+        <img id="arrow" class="arrow hide" src="../assets/icons/arrow.svg" alt="arrow">
+    </a>
+
+    <header>
+        <nav>
+            <div>
+                <a href="../index.html"><img class="logonav" src="../assets/icons/logo.svg" alt="newchampionslogo"></a>
+            </div>
+            <div class="nav_links_con">
+                <a class="navp" href="../index.html"><p>HOME</p></a>
+                <a class="navp" href="services.html"><p>SERVICES</p></a>
+                <a class="navp" href="aboutus.html"><p>ABOUT US</p></a>
+                <a class="navp" href="ourteam.html"><p>OUR TEAM</p></a>
+                <a id="active" class="navp" href="contact.html"><p>CONTACT</p></a>
+            </div>
+            <div>
+                <div class="nav_linksoc_con">
+                    <a class="soc_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                        <img class="social" src="../assets/icons/facebook.svg" alt="facebooklogo"></a>
+                    <a class="soc_icon" href="https://www.instagram.com/new.champions.gym/">
+                        <img class="social" src="../assets/icons/instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+            <div class="dropdown_icon">
+                <img onclick="SideBar()" class="dropnav" src="../assets/icons/filter-right.svg" alt="newchampionslogo">
+            </div>
+
+        </nav>
+        <div id="showsidebar" class="dropdown">
+
+            <div class="navlinkdropdown">
+                <div class="activedropdownyur">
+                    <a class="dropdownnavp" href="../index.html"><p>HOME</p></a>
+                </div>
+                <div class="activedropdownyur">
+                    <a class="dropdownnavp" href="services.html"><p>SERVICES</p></a>
+                </div>
+                    <div class="activedropdownyur">
+                    <a class="dropdownnavp" href="aboutus.html"><p>ABOUT US</p></a>
+                </div>
+                    <div class="activedropdownyur">
+                    <a class="dropdownnavp" href="ourteam.html"><p>OUR TEAM</p></a>
+                </div>
+                    <div class="activedropdownyur1">
+                    <a class="dropdownnavp" href="contact.html"><p>CONTACT</p></a>
+                </div>
+
+                <div class="soc_drop">
+                    <a class="soc_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                        <img class="social" src="../assets/icons/facebook.svg" alt="facebooklogo"></a>
+                    <a class="soc_icon" href="https://www.instagram.com/new.champions.gym/">
+                        <img class="social" src="../assets/icons/instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+
+        </div>
+        <script src="../features/dropdown.js"></script>
+
+    </header>
+
+    <main>
+
+        <form action="#">
+
+            <p class="sectform_main_text">CONTACT US</p>
+
+            <label for="Name"></label><div class="sect1_text">NAME</div><br>
+                <div id="f1" class="inputformcon">
+                    <div id="inp1yur" class="inputinside_con">
+                        <img class="socialinp" src="../assets/icons/journal-text.svg">
+                        <input oninput="validatename()" class="inputt" type="text" name="Name" id="name" required placeholder="Name">
+                    </div>
+                </div><br>
+            <div class="text_form_invalid" id="invname">Please provide your Name in English. (e.g. Albert Einstein)</div><br><br>
+
+            <label for="Email"></label><div class="sect1_text">EMAIL</div><br>
+                <div id="f2" class="inputformcon">
+                    <div id="inp2yur" class="inputinside_con">
+                        <img class="socialinp" src="../assets/icons/envelope-at.svg">
+                        <input oninput="validateemail()" class="inputt" type="email" name="Email" id="email" autocomplete="false" required placeholder="Email">
+                    </div>
+                </div><br>
+            <div class="text_form_invalid" id="invemail">Please provide a Valid Email. (e.g. example@gmail.com)</div><br><br>
+
+            <label for="Message"></label><div class="sect1_text">MESSAGE</div><br>
+            <div id="f3" class="inputformcon">
+                <textarea id="inp3yur" oninput="changeBorder()"class="textareainside_con" rows="8" cols="80" id="message" name="Message" required></textarea>
+            </div><br><br>
+            
+            <button class="form_button" type="submit" id="submitbtn" value="submit">SUBMIT</button>
+
+        </form>
+
+        <script>
+            $("#inp1yur").focusin(function(){
+                
+                $("#f1").addClass('zoom');
+                
+            });
+            $("#inp1yur").focusout(function(){
+                
+                $("#f1").removeClass('zoom');
+                
+            });
+            $("#inp2yur").focusin(function(){
+                
+                $("#f2").addClass('zoom');
+                
+            });
+            $("#inp2yur").focusout(function(){
+                
+                $("#f2").removeClass('zoom');
+                
+            });
+            $("#inp3yur").focusin(function(){
+                
+                $("#f3").addClass('zoom');
+                
+            });
+            $("#inp3yur").focusout(function(){
+                
+                $("#f3").removeClass('zoom');
+                
+            });
+
+
+        </script>
+
+        <script>
+
+
+
+            var form = document.querySelector("form");
+            var fullname = document.getElementById("name");
+            var email = document.getElementById("email");
+            var message = document.getElementById("message");
+
+            function sendEmail(){
+
+                var bodyMessage = "<br><b>Name:</b> "+ fullname.value +"<br><br><hr style='background-color: black'><br><b>Email:</b> "+ email.value +"<br><br><hr style='background-color: black'><br><b>Message:</b> "+ message.value +"<br>";
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "monkassxoxo@gmail.com",
+                    Password : "95312BEFE645119CD3DB9089CF9B04E574E1",
+                    To : 'monkassxoxo@gmail.com',
+                    From : "monkassxoxo@gmail.com",
+                    Subject : "Contact NEW Champion's Gym",
+                    Body : bodyMessage
+                });
+
+                alert("asd");
+            }
+
+            form.addEventListener("submit", (e) => {
+
+                e.preventDefault();
+
+                sendEmail();
+
+            })
+
+            function changeBorder(){
+
+                $("#inp3yur").css('border', 'solid');
+                $("#inp3yur").css('border-width', '0.15em');
+                $("#inp3yur").css('border-color', '#11941c');
+                if((document.getElementById("inp3yur").value)==""){
+
+                    $("#inp3yur").css('border', 'none');
+
+                }
+
+            }
+
+            function validatename(){
+
+                var submitbut = document.getElementById("submitbtn");
+                var invalidname = document.getElementById("invname");
+                var invalidemail = document.getElementById("invemail");
+
+                let pattern = /^[a-zA-Z]+$/;
+                let validName = pattern.test(document.getElementById("name").value);
+                let pattern1 = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                let validEmail = pattern1.test(document.getElementById("email").value);
+
+                if(validName == true && validEmail==true){
+
+                    submitbut.disabled = false;
+                    invalidname.style.display = "none";
+                    invalidemail.style.display = "none";
+                    $("#inp1yur").css('border', 'solid');
+                    $("#inp1yur").css('border-width', '0.15em');
+                    $("#inp1yur").css('border-color', '#11941c');
+                    $("#inp2yur").css('border-color', '#11941c');
+                    
+                }
+                else{
+
+                    if(validName == false && (document.getElementById("name").value)!=""){
+
+                        invalidname.style.display = "block";
+                        $("#inp1yur").css('border', 'solid');
+                        $("#inp1yur").css('border-width', '0.15em');
+                        $("#inp1yur").css('border-color', '#be0000');
+
+                    }else{
+
+                        invalidname.style.display = "none";
+                        if((document.getElementById("name").value)!=""){
+
+                            $("#inp1yur").css('border', 'solid');
+                            $("#inp1yur").css('border-width', '0.15em');
+                            $("#inp1yur").css('border-color', '#11941c');
+
+                        }
+                        else{
+
+                            $("#inp1yur").css('border', 'none');
+
+                        }
+
+                    }
+
+                    submitbut.disabled = true;
+                }
+            }
+
+
+            function validateemail(){
+
+                var submitbut = document.getElementById("submitbtn");
+                var invalidname = document.getElementById("invname");
+                var invalidemail = document.getElementById("invemail");
+
+                let pattern = /^[a-zA-Z]+$/;
+                let validName = pattern.test(document.getElementById("name").value);
+                let pattern1 = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                let validEmail = pattern1.test(document.getElementById("email").value);
+
+                if(validEmail==true && validName== true){
+
+                    submitbut.disabled = false;
+                    invalidname.style.display = "none";
+                    invalidemail.style.display = "none";
+                    $("#inp2yur").css('border', 'solid');
+                    $("#inp2yur").css('border-width', '0.15em');
+                    $("#inp2yur").css('border-color', '#11941c');
+                    $("#inp1yur").css('border-color', '#11941c');
+                    
+                }
+                else{
+
+                    submitbut.disabled = true;
+
+                    if(validEmail == false && (document.getElementById("email").value)!=""){
+
+                        invalidemail.style.display = "block";
+                        $("#inp2yur").css('border', 'solid');
+                        $("#inp2yur").css('border-width', '0.15em');
+                        $("#inp2yur").css('border-color', '#be0000');
+
+                    }else{
+
+                        invalidemail.style.display = "none";
+                        if((document.getElementById("email").value)!=""){
+
+                            $("#inp2yur").css('border', 'solid');
+                            $("#inp2yur").css('border-width', '0.15em');
+                            $("#inp2yur").css('border-color', '#11941c');
+
+                        }
+                        else{
+
+                            $("#inp2yur").css('border', 'none');
+
+                        }
+
+                    }
+                };
+            }
+        </script>
+
+        <div class="centermap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12649.353745755674!2d22.8159604!3d37.5706476!3m2!1i1024!2i768!
+            4f13.1!3m3!1m2!1s0x149ff11311c3aa71%3A0xd05814274f42ce06!2sNew%20Champions%20gym!5e0!3m2!1sen!2sgr!4v1705094674931!5m2!1sen!2sgr" 
+             class="googlemap" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+
+        <footer class="sectfooter">
+            <div class="sectfoot_con">
+                
+                <div>
+                    <p class="sectfootcon_maintext">Useful Links</p>
+                    <a class="footlinks" href="contact.html"><p><b>Contact</b></p></a>
+                    <a class="footlinks" href="aboutus.html"><p><b>About Us</b></p></a>
+                </div>
+                <div>
+                    <p class="sectfootcon_maintext">Get in Touch!</p>
+                    <div class="getintouch_con">
+                        <img class="social" src="../assets/icons/pin-map-fill.svg">
+                        <p class="footp">Leof. Asklipiou 66, Nafplio 211 00</p>
+                    </div>
+                    <div class="getintouch_con">
+                        <img class="social" src="../assets/icons/envelope-at.svg">
+                        <p class="footp">newchampionsgym@gmail.com</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="sectfootcon_maintext">Follow Us!</p>
+                    <div class="foot_linksoc_con">
+                        <a class="socfoot_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                            <img class="social" src="../assets/icons/facebook.svg" alt="facebooklogo"></a>
+                        <a class="socfoot_icon" href="https://www.instagram.com/new.champions.gym/">
+                            <img class="social" src="../assets/icons/instagram.svg" alt="instagram logo"></a>
+                    </div>
+                </div>
+                <div class="cent">
+                    <p class="sectfootcon_maintext">Stay Tuned!</p>
+                    <div class="centerfootcon">
+                        <div class="staytuned_con">
+                            <img class="socialfoot" src="../assets/icons/envelope-fill.svg">
+                            <input type="email" class="footinput_email">
+                        </div>
+                    </div>
+                    <p class="footp">Subscribe to our Newsletter!</p>
+                </div>
+    
+            </div>
+            <hr class="dividerhr">
+            <div>
+                <img class="logofoot" src="../assets/icons/logofoot.png" alt="newchampionslogo">
+                <p class="sectfoot_text">&#169;2024, New Champion's Gym, All Rights Reserved</p>
+            </div>
+    
+        </footer>
+
+    <script src="../features/changefavicon.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="../features/pageload.js"></script>
+    <script src="../features/foot.js"></script>
+    <script src="../features/arrow.js"></script>
+    <script src="../features/disablerightclick.js"></script>
+</body>
+</html>

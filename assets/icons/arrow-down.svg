@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>arrow-down-circle-fill-svg</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMAgMAAAArG7R0AAAAAXNSR0IB2cksfwAAAAlQTFRF////////////jkrl/gAAAAN0Uk5TCjP/LojLtQAAABRJREFUeJxjEA0NYchatZIoDFQLAMIbEt9tbuNMAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #116694 } 
+	</style>
+	<use id="Επίπεδο 1" href="#img1" x="2" y="2"/>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m16 8c0 2.1-0.8 4.2-2.3 5.7-1.5 1.5-3.6 2.3-5.7 2.3-2.1 0-4.2-0.8-5.7-2.3-1.5-1.5-2.3-3.6-2.3-5.7 0-2.1 0.8-4.2 2.3-5.7 1.5-1.5 3.6-2.3 5.7-2.3 2.1 0 4.2 0.8 5.7 2.3 1.5 1.5 2.3 3.6 2.3 5.7zm-7.5-3.5q0-0.2-0.1-0.4-0.2-0.1-0.4-0.1-0.2 0-0.4 0.1-0.1 0.2-0.1 0.4v5.8l-2.1-2.2q-0.2-0.1-0.4-0.1-0.2 0-0.4 0.1-0.1 0.2-0.1 0.4 0 0.2 0.1 0.4l3 3q0.1 0 0.2 0.1 0.1 0 0.2 0 0.1 0 0.2 0 0.1-0.1 0.2-0.1l3-3q0.1-0.2 0.1-0.4 0-0.2-0.1-0.4-0.2-0.1-0.4-0.1-0.2 0-0.4 0.1l-2.1 2.2z"/>
+</svg>

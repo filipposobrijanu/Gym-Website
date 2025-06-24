@@ -1,0 +1,188 @@
+@media only screen and (min-width: 375px){
+    textarea{
+
+        resize: none;
+    }
+    form{
+
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    .inputformcon{
+
+        display: flex;
+        justify-content: center;
+
+    }
+    #f1{
+
+        transition: transform 0.3s;
+    }
+    #f1.zoom{
+
+        transform: scale(1.1);
+
+    }
+    #f2{
+
+        transition: transform 0.3s;
+    }
+    #f2.zoom{
+
+        transform: scale(1.1);
+
+    }
+    #f3{
+
+        transition: transform 0.3s;
+    }
+    #f3.zoom{
+
+        transform: scale(1.05);
+
+    }
+
+    #inp1yur,#inp2yur{
+        border: none;
+    }
+    .sectform_main_text{
+
+        font-family: MainBold;
+        margin-top: 0em;
+        font-size: 2.5em;
+        font-weight: 700;
+        color: #0e0e0e;
+        
+    }
+    .inputinside_con{
+
+        width: 65%;
+        background-color: #f3f3f3;
+        justify-content: center;
+        display: flex;
+        border-radius: 2em;
+        font-family: Main;
+    }
+    .textareainside_con{
+
+        padding: 1.5em 2em;
+        width: 55%;
+        background-color: #f3f3f3;
+        justify-content: center;
+        display: flex;
+        border-radius: 2em;
+        border: none;
+        font-family: Main;
+
+    }
+    .inputt{
+
+        background-color: transparent;
+        border: none;
+        padding: 1em;
+        width: 70%;
+    }
+    .form_button{
+
+        border: 0.1em solid #116694;
+        font-size: 1.25em;
+        border-radius: 2em;
+        margin-top: 0.2em;
+        background-color: #116694;
+        padding: 0.8em 1.3em;
+        font-family: MainBold;
+        transition: all 0.2s,transform 0.1s;
+        color: rgb(255, 255, 255);
+
+    }
+    .form_button:active{
+        transform: scale(0.8);
+    }
+    .form_button:hover{
+
+        border: 0.1em solid #116694;
+        color: #116694;
+        background-color: transparent;
+    }
+    .text_form_invalid{
+
+        font-size: 1.25em;
+        color: #be0000;
+        font-weight: 600;
+        display: none;
+        animation: bannerfade 1s;
+        padding: 0 3.5em;
+
+    }
+    .socialinp{
+
+        width: 1.25em;
+    }
+    .googlemap{
+
+        border: none;
+        width: 100%;
+        height: 15em;
+    }
+
+}
+
+@media only screen and (min-width: 550px){
+
+
+    .text_form_invalid{
+
+
+        padding: 0 5em;
+    
+    
+    }
+
+
+}
+
+@media only screen and (min-width: 850px){
+
+
+    .inputinside_con{
+
+        width: 55%;
+
+    }
+    .textareainside_con{
+
+        width: 50%;
+
+    }
+    .googlemap{
+
+        height: 20em;
+    }
+
+
+}
+@media only screen and (min-width: 1150px){
+
+
+    .inputinside_con,.textareainside_con{
+
+        width: 45%;
+
+    }
+
+}
+@media only screen and (min-width: 1350px){
+
+
+    .inputinside_con,.textareainside_con{
+
+        width: 40%;
+
+    }
+    .googlemap{
+
+        height: 25em;
+    }
+
+}

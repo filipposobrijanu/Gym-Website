@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover the ultimate fitness experience at N.E.W Champion's Gym in Náfplio. 
+    Unleash your potential with state-of-the-art equipment, expert trainers, and a vibrant community. 
+    Elevate your fitness journey to new heights at the premier gym in Náfplio, where champions are made. 
+    Join us for a transformative fitness experience that goes beyond the ordinary, empowering you to conquer your goals and redefine your limits. ">
+    <meta name="keywords" content="gym, nafplio, fitness, health, bodybuilding">
+    <meta name="author" content="Filippos Obrijanu">
+    <meta property="og:image" content="https://scontent.fath4-2.fna.fbcdn.net/v/t39.30808-6/305087144_552082383382852_137471983504806580_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=fp2HxKdI1N8AX_3F8fM&_nc_ht=scontent.fath4-2.fna&oh=00_AfC5yZT4uiYcoAVBJnEP7Q8Wb04sGqsRs0gicFDV0EDT9Q&oe=65AB7E05" />
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | New Champion's Gym </title>
+
+    <link rel="stylesheet" href="assets/styles/nav.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/arrow.css">
+    <link rel="stylesheet" href="assets/styles/loadinganimation.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <div class="loader"></div>
+
+    <span id="head"></span>
+    <a href="#head">
+        <img id="arrow" class="arrow hide" src="assets/icons/arrow.svg" alt="arrow">
+    </a>
+
+    <header>
+        <nav>
+            <div>
+                <a href="index.html"><img class="logonav" src="assets/icons/logo.svg" alt="newchampionslogo"></a>
+            </div>
+            <div class="nav_links_con">
+                <a id="active" class="navp" href="index.html"><p>HOME</p></a>
+                <a class="navp" href="files/services.html"><p>SERVICES</p></a>
+                <a class="navp" href="files/aboutus.html"><p>ABOUT US</p></a>
+                <a class="navp" href="files/ourteam.html"><p>OUR TEAM</p></a>
+                <a class="navp" href="files/contact.html"><p>CONTACT</p></a>
+            </div>
+            <div>
+                <div class="nav_linksoc_con">
+                    <a class="soc_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                        <img class="social" src="assets/icons/facebook.svg" alt="facebooklogo"></a>
+                    <a class="soc_icon" href="https://www.instagram.com/new.champions.gym/">
+                        <img class="social" src="assets/icons/instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+            <div class="dropdown_icon">
+                <img onclick="SideBar()" class="dropnav" src="assets/icons/filter-right.svg" alt="newchampionslogo">
+            </div>
+
+        </nav>
+        <div id="showsidebar" class="dropdown">
+
+            <div class="navlinkdropdown">
+                <div class="activedropdownyur1">
+                <a class="dropdownnavp" href="index.html"><p>HOME</p></a>
+            </div>
+            <div class="activedropdownyur">
+                <a class="dropdownnavp" href="files/services.html"><p>SERVICES</p></a>
+            </div>
+                <div class="activedropdownyur">
+                <a class="dropdownnavp" href="files/aboutus.html"><p>ABOUT US</p></a>
+            </div>
+                <div class="activedropdownyur">
+                <a class="dropdownnavp" href="files/ourteam.html"><p>OUR TEAM</p></a>
+            </div>
+                <div class="activedropdownyur">
+                <a class="dropdownnavp" href="files/contact.html"><p>CONTACT</p></a>
+            </div>
+
+                <div class="soc_drop">
+                    <a class="soc_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                        <img class="social" src="assets/icons/facebook.svg" alt="facebooklogo"></a>
+                    <a class="soc_icon" href="https://www.instagram.com/new.champions.gym/">
+                        <img class="social" src="assets/icons/instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+
+        </div>
+        <script src="features/dropdown.js"></script>
+
+        <div class="bannerconyur">
+
+            <img id="b0" class="bannernav1" src="assets/images/outbanner1.png" alt="gym banner">
+            <img id="b1" class="bannernav" src="assets/images/outbanner1.png" alt="gym banner">
+            <img id="b2" class="bannernav" src="assets/images/bannermainnav.png" alt="gym banner">
+            <img id="b3" class="bannernav" src="assets/images/outbanner2.png" alt="gym banner">
+            <div class="dotcon">
+                <button onclick="showD1()" id="dot1" class="dotbanner"></button>
+                <button onclick="showD2()" id="dot2" class="dotbanner"></button>
+                <button onclick="showD3()" id="dot3" class="dotbanner"></button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="sect1">
+            <p class="sect1_text">WHY CHOOSE US?</p>
+            <p class="sect1_main_text">PUSH YOUR LIMITS FORWARD</p>
+            <div class="sect1_con">
+                <div>
+                    <img class="sect_img" src="assets/icons/equip.svg" alt="gym banner">
+                    <p class="sect1con_maintext">Modern Equipment</p>
+                    <p class="sect1con_text">Elevate your fitness journey in our state-of-the-art gym. Expert guidance, advanced equipment, and a supportive community await to transform your health and strength.</p>
+                </div>
+                <div>
+                    <img class="sect_img" src="assets/icons/plan.svg" alt="gym banner">
+                    <p class="sect1con_maintext">Professional Training Plan</p>
+                    <p class="sect1con_text">Unlock your potential with our professional training plans. Expertly designed by top coaches, each program is tailored to your goals, enhancing performance and skill. Experience personalized coaching that leads to remarkable achievements.</p>
+                </div>
+                <div>
+                    <img class="sect_img" src="assets/icons/heart.svg" alt="gym banner">
+                    <p class="sect1con_maintext">Unique to Your Needs</p>
+                    <p class="sect1con_text">Experience a program uniquely tailored to your needs. Our customized approach ensures personal attention, adapting to your specific goals and preferences for maximum results and satisfaction.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sect2">
+
+            <p class="sect2_text">OUR TEAM</p>
+            <p class="sect2_main_text">THE BEST OF THE BEST</p>
+            <div class="sect2_con">
+
+                <div id="teamimg1" class="sect2imgcon" >
+                    <div id="Desc1" class="sect2_img_p_con">
+                        <p class="sect2_img_p_main">George</p>
+                        <p class="sect2_img_p">Owner</p>
+                    </div>
+                    <img id="sect2_img1" class="sect2_img" src="assets/images/team1.png" alt="gym banner">
+                    <div class="sect2underwhite"></div>
+                </div>
+                <div id="teamimg2" class="sect2imgcon">
+                    <div id="Desc2" class="sect2_img_p_con">
+                        <p class="sect2_img_p_main">John</p>
+                        <p class="sect2_img_p">Trainer</p>
+                    </div>
+                    <img id="sect2_img2" class="sect2_img" src="assets/images/team2.png" alt="gym banner">
+                    <div class="sect2underwhite"></div>
+                </div>
+                <div id="teamimg3" class="sect2imgcon">
+                    <div id="Desc3" class="sect2_img_p_con">
+                        <p class="sect2_img_p_main">Jim</p>
+                        <p class="sect2_img_p">Trainer</p>
+                    </div>
+                    <img id="sect2_img3" class="sect2_img" src="assets/images/team3.png" alt="gym banner">
+                    <div class="sect2underwhite"></div>
+                </div>
+                <div class="dotcon2">
+                    <button onclick="showT1()" id="dot1team" class="dotteam"></button>
+                    <button onclick="showT2()" id="dot2team" class="dotteam"></button>
+                    <button onclick="showT3()" id="dot3team" class="dotteam"></button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+        <div class="sect3">
+
+
+            <img class="bannersect3" src="assets/images/book.jpg" alt="gym banner">
+            <img class="arrowdownsect3" src="assets/icons/arrow-down.svg" alt="gym banner">
+            <p class="sect3_main_text">EBOOKING @ NEW CHAMPION'S GYM</p>
+            <p class="sect3_text">Book your next appointment now!</p>  
+            <button class="sect3_button">BOOK NOW</button>
+
+        </div>
+
+        <div class="centermap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12649.353745755674!2d22.8159604!3d37.5706476!3m2!1i1024!2i768!
+            4f13.1!3m3!1m2!1s0x149ff11311c3aa71%3A0xd05814274f42ce06!2sNew%20Champions%20gym!5e0!3m2!1sen!2sgr!4v1705094674931!5m2!1sen!2sgr" 
+             class="googlemap" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <footer class="sectfooter">
+        <div class="sectfoot_con">
+            
+            <div>
+                <p class="sectfootcon_maintext">Useful Links</p>
+                <a class="footlinks" href="files/contact.html"><p><b>Contact</b></p></a>
+                <a class="footlinks" href="files/aboutus.html"><p><b>About Us</b></p></a>
+            </div>
+            <div>
+                <p class="sectfootcon_maintext">Get in Touch!</p>
+                <div class="getintouch_con">
+                    <img class="social" src="assets/icons/pin-map-fill.svg">
+                    <p class="footp">Leof. Asklipiou 66, Nafplio 211 00</p>
+                </div>
+                <div class="getintouch_con">
+                    <img class="social" src="assets/icons/envelope-at.svg">
+                    <p class="footp">newchampionsgym@gmail.com</p>
+                </div>
+            </div>
+            <div>
+                <p class="sectfootcon_maintext">Follow Us!</p>
+                <div class="foot_linksoc_con">
+                    <a class="socfoot_icon" href="https://www.facebook.com/p/NEW-Champions-Gym-100057432850650/?locale=el_GR">
+                        <img class="social" src="assets/icons/facebook.svg" alt="facebooklogo"></a>
+                    <a class="socfoot_icon" href="https://www.instagram.com/new.champions.gym/">
+                        <img class="social" src="assets/icons/instagram.svg" alt="instagram logo"></a>
+                </div>
+            </div>
+            <div class="cent">
+                <p class="sectfootcon_maintext">Stay Tuned!</p>
+                <div class="centerfootcon">
+                    <div class="staytuned_con">
+                        <img class="socialfoot" src="assets/icons/envelope-fill.svg">
+                        <input type="email" class="footinput_email">
+                    </div>
+                </div>
+                <p class="footp">Subscribe to our Newsletter!</p>
+            </div>
+
+        </div>
+        <hr class="dividerhr">
+        <div>
+            <img class="logofoot" src="assets/icons/logofoot.png" alt="newchampionslogo">
+            <p class="sectfoot_text">&#169;2024, New Champion's Gym, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="features/changefavicon.js"></script>
+    <script defer src="features/pageload.js"></script>
+    <script src="features/foot.js"></script>
+    <script src="features/arrow.js"></script>
+    <script src="features/OurTeam.js"></script>
+    <script src="features/bannerslider.js"></script>
+    <script src="features/disablerightclick.js"></script>
+</body>
+</html>

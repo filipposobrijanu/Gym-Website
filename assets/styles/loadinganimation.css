@@ -1,0 +1,58 @@
+.loader{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 1000vh;
+    background-color: #09486b;
+    -webkit-transition: opacity 0.5s, visibility 0.5s;
+    -moz-transition:opacity 0.5s, visibility 0.5s;
+    -ms-transition: opacity 0.5s, visibility 0.5s;
+    -o-transition: opacity 0.5s, visibility 0.5s;
+    transition: opacity 0.5s, visibility 0.5s;
+    z-index: 100;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+@keyframes loadfadedown {
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-30px) scale(0.7);
+    }
+    100%{
+
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    
+}
+@keyframes loadfadeup {
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(30px) scale(0.7);
+    }
+    100%{
+
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    
+}
+.nav_links_con,.logonav,.social,.sect1_text,.sect1_main_text,.con_serv,.sectservcon_text,.sectfootcon_maintext,.sectaboutblue_text,.sect2_text,.sect2_main_text
+,.sectform_main_text,.sect1con_maintext,.sect3_main_text,.sect3_text,.bannersect3,.arrowdownsect3,.dropnav,.navlinkdropdown{
+
+    animation: loadfadedown 1s;
+}
+.sectfoot_text,.staytuned_con,.footp,.footlinks,.sectabout_text,.sect2_img,.inputformcon,#submitbtn,.sect1con_text,.sect3_button{
+
+    animation: loadfadeup 1s;
+
+}

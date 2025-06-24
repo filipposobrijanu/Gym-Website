@@ -1,0 +1,50 @@
+@media only screen and (min-width: 375px){
+    .arrow{
+
+        z-index: 15;
+        margin: 0;
+        display: flex;
+        position: fixed;
+        width: 4em;
+        right: 50%;
+        bottom: 5%;
+        transform: translateX(50%);
+        -webkit-transition: bottom 1s,opacity 1s, filter 0.2s,scale ease-out 0.35s;
+        -moz-transition: bottom 1s,opacity 1s, filter 0.2s,scale ease-out 0.35s;
+        -ms-transition: bottom 1s,opacity 1s, filter 0.2s,scale ease-out 0.35s;
+        -o-transition: bottom 1s,opacity 1s, filter 0.2s,scale ease-out 0.35s;
+        transition: bottom 1s,opacity 1s, filter 0.2s,scale ease-out 0.35s;
+
+    }
+    .arrow:hover{
+
+        filter: brightness(60%);
+
+    }
+    .hide{
+
+        opacity: 0;
+        bottom: -15%;
+    }
+    .show{
+
+        opacity: 1;
+        bottom: 5%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .arrow{
+
+        right: 8%;
+
+    }
+
+}
+@media only screen and (min-width: 1350px){
+    .arrow{
+
+        right: 5%;
+
+    }
+
+}
