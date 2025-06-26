@@ -1,7 +1,7 @@
 
 # 🌐 Gym Website
 
-A website that I built for a local gym as a practice project focusing on UI.
+This practice project showcases my frontend development skills through a **fully responsive website** designed for a local gym. Focusing primarily on **user interface design** and **user experience** principles, the site presents a modern digital presence for a fitness center.
 
 ---
 
