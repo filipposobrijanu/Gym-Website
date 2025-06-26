@@ -3,7 +3,8 @@
 
 This practice project showcases my frontend development skills through a **fully responsive website** designed for a local gym. Focusing primarily on **user interface design** and **user experience** principles, the site presents a modern digital presence for a fitness center.
 
-![screenshot](1/1.PNG)
+![screenshot](1/2.PNG)
+![screenshot](1/3.PNG)
 ---
 
 ## 🛠️ Technologies Used
@@ -12,6 +13,8 @@ This practice project showcases my frontend development skills through a **fully
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
+![screenshot](1/4.PNG)
+![screenshot](1/5.PNG)
 ---
 
 ## 📄 License
