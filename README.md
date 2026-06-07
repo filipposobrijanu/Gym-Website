@@ -1,4 +1,4 @@
-# 🌐 Gym Website Landing Page
+# Gym Website Landing Page
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://gym-website-new-champions.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
